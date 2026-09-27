@@ -237,4 +237,12 @@ footer{
 #Google:hover{
     background-color:#B08D57;
 }
+.menuObj{
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,h2,h3{
+    font-family: "Playfair Display", serif;
+}
+
 
