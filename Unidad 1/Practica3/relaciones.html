@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1</title>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section id="principal">
+            <h1>Relaciones</h1>
+            <form name="relaciones" method="post" action="#" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Auto-Corredor</legend>
+                    <div>
+                        <select id="autosC">
+                            <option value="Vacio"></option>
+                            <option value="1">Auto 1</option>
+                            <option value="2">Auto 2</option>
+                            <option value="3">Auto 3</option>
+                        </select>
+                        <label> Autos </label>
+                    </div>
+                    <div>
+                        <select id="corredoresA">
+                            <option value="Vacio"></option>
+                            <option value="1">Corredor 1</option>
+                            <option value="2">Corredor 2</option>
+                            <option value="3">Corredor 3</option>
+                        </select>
+                        <label> Corredores </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Auto-Escuderia</legend>
+                    <div>
+                        <select id="autosE">
+                            <option value="Vacio"></option>
+                            <option value="1">Auto 1</option>
+                            <option value="2">Auto 2</option>
+                            <option value="3">Auto 3</option>
+                        </select>
+                        <label> Autos </label>
+                    </div>
+                    <div>
+                        <select id="escuderiaA">
+                            <option value="Vacio"></option>
+                            <option value="1">Escuderia 1</option>
+                            <option value="2">Escuderia 2</option>
+                            <option value="3">Escuderia 3</option>
+                        </select>
+                        <label> Escuderia </label>
+                    </div>
+
+                </fieldset>
+            </form>
+            <button id="btnGuardar" onclick="mostrarRelaciones()">Guardar</button>
+        
+        </section>
+        <section id="menu">
+            <aside >
+                <h2>MENU</h2>
+                <ul>
+                    <li class="elementoM"><a href="index.html"> Home</a></li>
+                    <li class="elementoM"><a href="autos.html">Autos</a></li>
+                    <li class="elementoM"><a href="escuderia.html">Escuderia</a></li>
+                    <li class="elementoM"><a href="corredor.html">Corredor</a></li>
+                    <li class="elementoM"><a href="relaciones.html">Relaciones</a></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    
+    <footer>
+        <article id="nombreAlumno">
+            Liam yoshua Magaña Barrera
+        </article>
+        <article id="grupoAlumno">
+            LDSM405
+        </article>
+    </footer>
+    <script src="js/funcionalidad.js" defer></script>
+</body>
+</html>

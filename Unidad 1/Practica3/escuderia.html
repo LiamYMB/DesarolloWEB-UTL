@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1</title>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section id="principal">
+            <h1>Escuderia</h1>
+            <form name="escuderia" method="post" action="#" enctype="multipart/form-data">
+                <section id="datosE">
+                    <div id="nombre">
+                        <label>Nombre: </label>
+                        <input type="text" name="nombreE" id="nombreE" />
+                    </div>
+                    <div id="descripcion">
+                        <label>Descripcion: </label>
+                        <textarea name="descripcionE" id="descripcionE" rows="6" cols="30"></textarea>
+                    </div>
+                </section>
+        
+            <button id="btnGuardar" onclick="mostrarEscuderia()">Guardar</button>
+        </section>
+        <section id="menu">
+            <aside >
+                <h2>MENU</h2>
+                <ul>
+                    <li class="elementoM"><a href="index.html"> Home</a></li>
+                    <li class="elementoM"><a href="autos.html">Autos</a></li>
+                    <li class="elementoM"><a href="escuderia.html">Escuderia</a></li>
+                    <li class="elementoM"><a href="corredor.html">Corredor</a></li>
+                    <li class="elementoM"><a href="relaciones.html">Relaciones</a></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    
+    <footer>
+        <article id="nombreAlumno">
+            Liam yoshua Magaña Barrera
+        </article>
+        <article id="grupoAlumno">
+            LDSM405
+        </article>
+    </footer>
+    <script src="js/funcionalidad.js" defer></script>
+</body>
+</html>

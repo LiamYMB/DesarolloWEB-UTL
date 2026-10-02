@@ -1,0 +1,209 @@
+body{
+    background-color:bisque;
+}
+
+main{
+    display:flex;
+}
+
+#principal{
+    background-color:bisque;
+    width:80%;
+    height: 600px;
+    align-items:center;
+    font-size:20px;
+}
+
+#menu{
+    background-color:#BC0202;
+    width:20%;
+    height:590px;
+    border-radius:19px;
+    align-items:center;
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration:none;
+
+}
+
+footer{
+    background-color:#BC0202;
+    height:100px;
+    border-radius:19px;
+    display:flex;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+#menu aside h2{
+    text-align:center;
+    font-size:40px;
+    color:white;
+}
+
+.elementoM{
+    padding:10px;
+    background-color:beige;
+    list-style:none;
+    margin-bottom:20px;
+    border-radius:19px;
+    text-align: center;
+    font-size:25px;
+    text-decoration:none;
+    color:black;
+
+
+}
+
+#menu aside ul{
+    width:80%;
+    height:500px;
+}
+
+#nombreAlumno{
+    padding:15px;
+    margin-right:75%;
+    margin-left:20px;
+    background-color:beige;
+    border-radius:19px;
+}
+
+#grupoAlumno{
+    padding:9px;
+    background-color:beige;
+    border-radius:19px;
+
+
+}
+
+#principal h1{
+    color:black;
+    font-size:80px;
+    text-align:center;
+}
+
+#imagen1{
+    align-items:center;
+    margin-left:43%;
+    margin-top:6%;
+}
+
+fieldset{
+    width:70%;
+    height:100px;
+    margin-left:15%;
+    margin-top:3%;
+    border-radius:19px;
+    border: 2px solid #BC0202;
+}
+
+legend{
+    font-size:30px;
+    color:black;
+}
+
+#btnGuardar{
+    background-color:#BC0202;
+    color:white;
+    font-size:20px;
+    border-radius:19px;
+    margin-left:45%;
+    margin-top:4%;
+}
+
+#caracteristicasC{
+    width:70%;
+    height:200px;
+    margin-left:15%;
+    margin-top:3%;
+    border-radius:19px;
+    padding:10px;
+    margin-bottom:3%;
+    border: 2px solid #BC0202;
+}
+#caracteristicasC div{
+    padding:10px;
+}
+
+#datosE{
+    width:70%;
+    height:200px;
+    margin-left:15%;
+    margin-top:3%;
+    border-radius:19px;
+    padding:10px;
+    margin-bottom:3%;
+    border: 2px solid #BC0202;
+}
+
+#datosE div{
+    padding:10px;
+}
+#descripcion{
+    display:flex;
+    align-items:flex-start;
+    gap:8px;
+}
+
+#nombre input{
+    margin-left:4%;
+    width:28%;
+}
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3{
+    font-family: "Archivo Black", sans-serif;
+}
+form{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#datosCorredor{
+    width:70%;
+    height:200px;
+    margin-left:15%;
+    margin-top:3%;
+    border-radius:19px;
+    padding:10px;
+    margin-bottom:3%;
+    border: 2px solid #BC0202;
+}
+
+#nombreCompleto{
+    display:flex;
+    gap:15%;
+}
+#nombreCompleto div{
+    flex-direction:column;
+    display:flex;
+}
+
+#datosExtraC{
+    margin-top:3%;
+    display:flex;
+    gap:15%;
+    margin-bottom:3%;
+}
+
+.elementoM a{
+    text-decoration:none;
+    color:black;
+}
+
+.elementoM a:hover{
+    color:white;
+    background-color:#BC0202;
+    padding:10px;
+    border-radius:19px;
+    
+}

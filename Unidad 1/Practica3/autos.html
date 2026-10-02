@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1</title>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section id="principal">
+            <h1>Autos</h1>
+            <form name="autos" method="post" action="#" enctype="multipart/form-data">
+                <section id="caracteristicasC">
+                    <div id="modelo">
+                        <label>Modelo: </label>
+                        <input type="text" name="modeloC" id="modeloC" />
+                    </div>
+                    <div id="color">
+                        <label>Color: </label>
+                        <input type="text" name="colorC" id="colorC" />
+                    </div>
+                    <div id="foto">
+                        <label>Foto: </label>
+                        <input type="file" id="fotoA" />
+                    </div>
+                    <div id="activo">
+                        <label>Activo: </label>
+                        <input type="radio" name="activoC" id="activoC" value="si" />Si
+                        <input type="radio" name="activoC" id="activoC2" value="no" />No 
+                    </div>
+                </section>
+            </form>
+        
+            <button id="btnGuardar" onclick="mostrarAuto()">Guardar</button>
+        </section>
+        <section id="menu">
+            <aside >
+                <h2>MENU</h2>
+                <ul>
+                    <li class="elementoM"><a href="index.html"> Home</a></li>
+                    <li class="elementoM"><a href="autos.html">Autos</a></li>
+                    <li class="elementoM"><a href="escuderia.html">Escuderia</a></li>
+                    <li class="elementoM"><a href="corredor.html">Corredor</a></li>
+                    <li class="elementoM"><a href="relaciones.html">Relaciones</a></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    
+    <footer>
+        <article id="nombreAlumno">
+            Liam yoshua Magaña Barrera
+        </article>
+        <article id="grupoAlumno">
+            LDSM405
+        </article>
+    </footer>
+    <script src="js/funcionalidad.js" defer></script>
+</body>
+</html>

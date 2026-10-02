@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1</title>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section id="principal">
+            <h1>Corredor</h1>
+            <form name="corredor" method="post" action="#" enctype="multipart/form-data">
+                <section id="datosCorredor">
+                    <div id="nombreCompleto">
+                        <div id="nombreC">
+                            <label>Nombre: </label>
+                            <input type="text" name="nombreP" id="nombreP" />
+                        </div>
+                        <div id="apellidoP">
+                            <label>Apellido: </label>
+                            <input type="text" name="apellidoP" id="apellidoP" />
+                        </div>
+                        <div id="apellidoM">
+                            <label>Apellido Materno: </label>
+                            <input type="text" name="apellidoM" id="apellidoM" />
+                        </div>
+                    </div>
+                    <div id="datosExtraC">
+                        <div id="edad">
+                            <label>Edad: </label>
+                            <select name="edadP" id="edadP">
+                                <option value="Vacio"></option>
+                                <option value="1">18</option>
+                                <option value="2">19</option>
+                                <option value="3">20</option>
+                            </select>
+                        </div>
+                        <div id="genero">
+                            <label>Genero: </label>
+                            <input type="radio" name="generoP" id="generoP" value="hombre" />Hombre
+                            <input type="radio" name="generoP" id="generoP2" value="mujer" />Mujer
+                        </div>
+                    </div>
+                    <div id="foto">
+                        <label>Foto: </label>
+                        <input type="file" id="fotoC" />
+                    </div>
+                </section>
+            </form>
+        
+            <button id="btnGuardar" onclick="mostrarCorredor()">Guardar</button>
+        </section>
+        <section id="menu">
+            <aside >
+                <h2>MENU</h2>
+                <ul>
+                    <li class="elementoM"><a href="index.html"> Home</a></li>
+                    <li class="elementoM"><a href="autos.html">Autos</a></li>
+                    <li class="elementoM"><a href="escuderia.html">Escuderia</a></li>
+                    <li class="elementoM"><a href="corredor.html">Corredor</a></li>
+                    <li class="elementoM"><a href="relaciones.html">Relaciones</a></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    
+    <footer>
+        <article id="nombreAlumno">
+            Liam yoshua Magaña Barrera
+        </article>
+        <article id="grupoAlumno">
+            LDSM405
+        </article>
+    </footer>
+    <script src="js/funcionalidad.js" defer></script>
+</body>
+</html>
