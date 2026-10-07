@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Portafolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark barra-navegacion sticky-top">
+
+        <div class="container">
+
+
+            <a class="navbar-brand logo" href="#inicio">
+                <span>&lt;/&gt;</span> Liam
+            </a>
+
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link activo" href="#inicio">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#educacion">Educación</a>
+                    </li>
+
+                </ul>
+
+                
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <section id="inicio" class="inicio">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+  
+                <div class="col-lg-7">
+
+                    <p class="texto-morado">HOLA, SOY</p>
+
+                    <h1>
+                        Liam <span>Magaña</span>
+                    </h1>
+
+                    <h2>Desarrollador de Software</h2>
+
+                    <p class="descripcion">
+                        Me apasiona la programacion, soy autodidacta y me encantan los nuevos retos
+                    </p>
+
+                </div>
+
+
+                <div class="col-lg-5 text-center">
+
+                    <div class="foto-contenedor">
+
+                        <img src="img/Retrato.png" alt="Foto" class="foto-perfil">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section id="sobre-mi" class="seccion">
+
+        <div class="container">
+
+            <div class="titulo-seccion">
+
+                <span>SOBRE MÍ</span>
+
+                <h2>¿Quién soy?</h2>
+
+            </div>
+
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-8">
+
+                    <p>
+                        Soy estudiante de Desarrollo de Software con interés
+                        en el desarrollo web, aplicaciones de escritorio y
+                        bases de datos.
+                    </p>
+
+                    <p>
+                        Me considero una persona curiosa, autodidacta y
+                        comprometida con mejorar constantemente mis habilidades.
+                        Disfruto convertir ideas en proyectos funcionales
+                        y fáciles de utilizar.
+                    </p>
+
+                </div>
+
+
+                <div class="col-lg-4 text-center">
+
+                    <i class="bi bi-laptop icono-grande"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="galeria" class="seccion">
+        <div class="container">
+            <div class="titulo-seccion">
+                <span>GALERÍA</span>
+                <h2>Imágenes</h2>
+            </div>
+
+            <div id="carruselImagenes" class="carousel slide carrusel-imagenes" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+                    <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+                    <button type="button" data-bs-target="#carruselImagenes" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carrusel-espacio-imagen" role="img" aria-label="Espacio reservado para la imagen 1"><img src="img/img1.jpg"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carrusel-espacio-imagen" role="img" aria-label="Espacio reservado para la imagen 2"><img src="img/img2.jpg"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carrusel-espacio-imagen" role="img" aria-label="Espacio reservado para la imagen 3"><img src="img/img3.jpg"></div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carruselImagenes" data-bs-slide="prev" aria-label="Imagen anterior">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carruselImagenes" data-bs-slide="next" aria-label="Imagen siguiente">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="habilidades" class="seccion">
+
+        <div class="container">
+
+            <div class="titulo-seccion">
+
+                <span>HABILIDADES</span>
+
+                <h2>Tecnologías que utilizo</h2>
+
+            </div>
+
+
+            <div class="row g-3">
+
+                
+                <div class="col-6 col-md-3 col-lg-3">
+
+                    <article class="habilidad">
+
+                        <i class="bi bi-cup-hot"></i>
+
+                        <h5>Java</h5>
+
+                    </article>
+
+                </div>
+
+
+                
+                <div class="col-6 col-md-3 col-lg-3">
+
+                    <article class="habilidad">
+
+                        <i class="bi bi-filetype-py"></i>
+
+                        <h5>Python</h5>
+
+                    </article>
+
+                </div>
+
+                
+                <div class="col-6 col-md-3 col-lg-3">
+
+                    <article class="habilidad">
+
+                        <i class="bi bi-filetype-html"></i>
+
+                        <h5>HTML</h5>
+
+                    </article>
+
+                </div>
+
+
+                
+                <div class="col-6 col-md-3 col-lg-3">
+
+                    <article class="habilidad">
+
+                        <i class="bi bi-filetype-css"></i>
+
+                        <h5>CSS</h5>
+
+                    </article>
+
+                </div>
+
+
+                
+                <div class="col-6 col-md-3 col-lg-3">
+
+                    <article class="habilidad">
+
+                        <i class="bi bi-filetype-js"></i>
+
+                        <h5>JavaScript</h5>
+
+                    </article>
+
+                </div>
+
+
+                
+                <div class="col-6 col-md-3 col-lg-3">
+
+                    <article class="habilidad">
+
+                        <i class="bi bi-database"></i>
+
+                        <h5>MySQL</h5>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section id="proyectos" class="seccion">
+
+        <div class="container">
+
+            <div class="titulo-seccion">
+
+                <span>PROYECTOS</span>
+
+                <h2>Proyectos destacados</h2>
+
+            </div>
+
+
+            <div class="row g-4">
+
+
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="card proyecto">
+
+                        <img src="img/Kindish.jpeg"
+                             class="card-img-top"
+                             alt="Sistema de gestión hospitalaria">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                KINDISH
+                            </h5>
+
+                            <p class="card-text">
+                                    Aplicacion para venta de alimentos para comedores industriales
+                            </p>
+
+
+                            
+
+                            <button type="button"
+                                    class="btn boton-proyecto"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#modalProyecto1">
+
+                                Abrir proyecto
+                                <i class="bi bi-box-arrow-up-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="card proyecto">
+
+                        <img src="img/DevLaunch.jpeg"
+                             class="card-img-top"
+                             alt="Tienda en línea">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                DevLaunch
+                            </h5>
+
+                            <p class="card-text">
+                                Pagina web para financiamiento a proyectos de desarolladores freelancer
+                            </p>
+
+
+                            <button type="button"
+                                    class="btn boton-proyecto"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#modalProyecto2">
+
+                                Abrir proyecto
+                                <i class="bi bi-box-arrow-up-right"></i>
+
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                </div>
+
+        </div>
+
+    </section>
+
+
+  
+   
+
+
+
+
+    <section id="educacion" class="seccion">
+
+        <div class="container">
+
+            <div class="titulo-seccion">
+
+                <span>EDUCACIÓN</span>
+
+                <h2>Formación académica</h2>
+
+            </div>
+
+
+            <div class="educacion">
+
+                <article class="educacion-item">
+
+                    <div class="icono-educacion">
+                        <i class="bi bi-mortarboard"></i>
+                    </div>
+
+                    <div>
+
+                        <span class="fecha">
+                            2025 - Actualidad
+                        </span>
+
+                        <h4>
+                            Ingeniería en Desarrollo de Software multiplataforma
+                        </h4>
+
+                        <p>
+                            Universidad Tecnologica de Leon
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="educacion-item">
+
+                    <div class="icono-educacion">
+                        <i class="bi bi-award"></i>
+                    </div>
+
+                    <div>
+
+                        <span class="fecha">
+                            2022-2025
+                        </span>
+
+                        <h4>
+                            Fundamentos de Programación (Area de ingenieria)
+                        </h4>
+
+                        <p>
+                            Bachillerato Universidad de Guanajuato Centro Historico Leon
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="logo"><span>&lt;/&gt;</span> Liam</div>
+            <p>Desarrollador de Software</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="modalProyecto1" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content ventana-modal">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        KINDISH
+                    </h5>
+
+                    <button type="button"
+                            class="btn-close btn-close-white"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+
+                <div class="modal-body">
+
+
+                    <p>
+                        Sistema diseñado para que los comedores industriales consigan
+                        insumos a un menor precio y los agricultores locales no tengan 
+                        perdidas
+                    </p>
+
+                    <p>
+                        El proyecto cuenta con un prototipo y documentacion necesaria
+                    </p>
+
+                </div>
+
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn boton-cerrar"
+                            data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+     <div class="modal fade" id="modalProyecto2" tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content ventana-modal">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        DevLaunch
+                    </h5>
+
+                    <button type="button"
+                            class="btn-close btn-close-white"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+
+                <div class="modal-body">
+
+
+                    <p>
+                        Sitio Web para que inversionistas puedan invertir
+                         en proyectos de desarolladores freelancer
+                    </p>
+                    <p>
+                        Cuenta con frontEnd
+                    </p>
+
+                </div>
+
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                            class="btn boton-cerrar"
+                            data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
