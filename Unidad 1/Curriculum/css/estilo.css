@@ -1,32 +1,10 @@
 
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: #080812;
     color: #f5f5f5;
     font-family: Arial, sans-serif;
 }
-
-a {
-    text-decoration: none;
-}
-
-
-
-:root {
-    --morado: #7c3aed;
-    --morado-claro: #a78bfa;
-    --fondo: #080812;
-    --tarjeta: #11111d;
-    --borde: #29293d;
-    --texto: #f5f5f5;
-    --texto-gris: #a1a1aa;
-}
-
-
 
 .barra-navegacion {
     background-color: rgba(8, 8, 18, 0.95);
@@ -40,36 +18,23 @@ a {
 }
 
 .logo span {
-    color: var(--morado-claro);
+    color: #a78bfa;
 }
 
 .nav-link {
-    color: #b5b5c0 !important;
+    color: #b5b5c0 ;
     margin: 0 8px;
     transition: 0.3s;
 }
 
 .nav-link:hover {
-    color: white !important;
+    color: white ;
 }
 
 .nav-link.activo {
-    color: white !important;
-    border-bottom: 2px solid var(--morado);
+    color: white ;
+    border-bottom: 2px solid #7c3aed;
 }
-
-.redes-menu a {
-    color: white;
-    font-size: 18px;
-    margin-left: 15px;
-    transition: 0.3s;
-}
-
-.redes-menu a:hover {
-    color: var(--morado-claro);
-}
-
-
 
 .inicio {
     padding: 90px 0 60px;
@@ -79,7 +44,7 @@ a {
 }
 
 .texto-morado {
-    color: var(--morado-claro);
+    color: #a78bfa;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -92,7 +57,7 @@ a {
 }
 
 .inicio h1 span {
-    color: var(--morado);
+    color: #7c3aed;
 }
 
 .inicio h2 {
@@ -102,45 +67,12 @@ a {
 }
 
 .descripcion {
-    color: var(--texto-gris);
+    color: #a1a1aa;
     max-width: 600px;
     line-height: 1.7;
 }
 
 
-
-.botones {
-    margin-top: 30px;
-}
-
-.boton-morado {
-    background-color: var(--morado);
-    color: white;
-    border: 1px solid var(--morado);
-    padding: 12px 25px;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-.boton-morado:hover {
-    background-color: #6d28d9;
-    color: white;
-    transform: translateY(-2px);
-}
-
-.boton-cv {
-    color: white;
-    border: 1px solid var(--morado);
-    padding: 12px 25px;
-    border-radius: 8px;
-    margin-left: 10px;
-    transition: 0.3s;
-}
-
-.boton-cv:hover {
-    background-color: var(--morado);
-    color: white;
-}
 
 .foto-contenedor {
     padding: 10px;
@@ -151,43 +83,8 @@ a {
     height: 330px;
     object-fit: cover;
     border-radius: 15px;
-    border: 2px solid var(--morado);
-    box-shadow: 0 0 35px rgba(124, 58, 237, 0.25);
-}
-
-
-
-.estadisticas {
-    margin-top: 70px;
-}
-
-.estadistica {
-    background-color: var(--tarjeta);
-    border: 1px solid var(--borde);
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 15px;
-    text-align: center;
-    transition: 0.3s;
-}
-
-.estadistica:hover {
-    border-color: var(--morado);
-    transform: translateY(-3px);
-}
-
-.estadistica i {
-    color: var(--morado-claro);
-    font-size: 25px;
-}
-
-.estadistica h3 {
-    margin: 8px 0 0;
-}
-
-.estadistica p {
-    color: var(--texto-gris);
-    margin: 0;
+    border: 2px solid #7c3aed;
+    
 }
 
 
@@ -201,7 +98,7 @@ a {
 }
 
 .titulo-seccion span {
-    color: var(--morado-claro);
+    color: #a78bfa;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -216,20 +113,20 @@ a {
 
 
 #sobre-mi p {
-    color: var(--texto-gris);
+    color: #a1a1aa;
     line-height: 1.8;
     font-size: 17px;
 }
 
 .icono-grande {
     font-size: 130px;
-    color: var(--morado);
+    color: #7c3aed;
 }
 
 .carrusel-imagenes {
     max-width: 900px;
     margin: 0 auto;
-    border: 1px solid var(--borde);
+    border: 1px solid #29293d;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -239,8 +136,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--tarjeta);
-    color: var(--texto-gris);
+    background-color: #11111d;
+    color: #a1a1aa;
     font-size: 20px;
 }
 
@@ -248,17 +145,12 @@ a {
     margin-bottom: 12px;
 }
 
-@media (max-width: 768px) {
-    .carrusel-espacio-imagen {
-        min-height: 260px;
-    }
-}
 
 
 
 .habilidad {
-    background-color: var(--tarjeta);
-    border: 1px solid var(--borde);
+    background-color: #11111d;
+    border: 1px solid #29293d;
     border-radius: 10px;
     padding: 25px 10px;
     text-align: center;
@@ -266,13 +158,13 @@ a {
 }
 
 .habilidad:hover {
-    border-color: var(--morado);
+    border-color: #7c3aed;
     transform: translateY(-4px);
 }
 
 .habilidad i {
     font-size: 35px;
-    color: var(--morado-claro);
+    color: #a78bfa;
 }
 
 .habilidad h5 {
@@ -283,8 +175,8 @@ a {
 
 
 .proyecto {
-    background-color: var(--tarjeta);
-    border: 1px solid var(--borde);
+    background-color: #11111d;
+    border: 1px solid #29293d;
     border-radius: 12px;
     overflow: hidden;
     height: 100%;
@@ -292,7 +184,7 @@ a {
 }
 
 .proyecto:hover {
-    border-color: var(--morado);
+    border-color: #7c3aed;
     transform: translateY(-5px);
 }
 
@@ -311,32 +203,19 @@ a {
 }
 
 .proyecto .card-text {
-    color: var(--texto-gris);
-}
-
-.tecnologias {
-    margin: 18px 0;
-}
-
-.badge {
-    background-color: #27203d;
-    color: var(--morado-claro);
-    border: 1px solid #45316b;
-    margin-right: 5px;
-    padding: 7px 10px;
-    font-weight: normal;
+    color: #a1a1aa;
 }
 
 .boton-proyecto {
     width: 100%;
     color: white;
-    border: 1px solid var(--morado);
+    border: 1px solid #7c3aed;
     border-radius: 7px;
     transition: 0.3s;
 }
 
 .boton-proyecto:hover {
-    background-color: var(--morado);
+    background-color: #7c3aed;
     color: white;
 }
 
@@ -345,31 +224,26 @@ a {
 .ventana-modal {
     background-color: #11111d;
     color: white;
-    border: 1px solid var(--morado);
+    border: 1px solid #7c3aed;
 }
 
 .ventana-modal .modal-header {
-    border-bottom: 1px solid var(--borde);
+    border-bottom: 1px solid #29293d;
 }
 
 .ventana-modal .modal-footer {
-    border-top: 1px solid var(--borde);
+    border-top: 1px solid #29293d;
 }
 
 .ventana-modal p {
-    color: var(--texto-gris);
+    color: #a1a1aa;
     line-height: 1.7;
     margin-top: 20px;
 }
 
-.imagen-modal {
-    width: 100%;
-    border-radius: 8px;
-}
-
 .boton-cerrar {
     color: white;
-    border: 1px solid var(--borde);
+    border: 1px solid #29293d;
 }
 
 .boton-cerrar:hover {
@@ -385,22 +259,22 @@ a {
     align-items: flex-start;
     gap: 20px;
     padding: 25px;
-    background-color: var(--tarjeta);
-    border: 1px solid var(--borde);
+    background-color: #11111d;
+    border: 1px solid #29293d;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .icono-educacion {
     background-color: #27203d;
-    color: var(--morado-claro);
+    color: #a78bfa;
     padding: 15px;
     border-radius: 8px;
     font-size: 25px;
 }
 
 .fecha {
-    color: var(--morado-claro);
+    color: #a78bfa;
     font-size: 14px;
 }
 
@@ -409,106 +283,27 @@ a {
 }
 
 .educacion-item p {
-    color: var(--texto-gris);
+    color: #a1a1aa;
 }
-
-
-
-.texto-contacto {
-    color: var(--texto-gris);
-    line-height: 1.7;
-}
-
-.icono-contacto {
-    color: var(--morado-claro);
-    margin-right: 10px;
-}
-
-.redes {
-    margin-top: 25px;
-}
-
-.redes a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
-    border: 1px solid var(--borde);
-    border-radius: 8px;
-    color: white;
-    margin-right: 8px;
-    transition: 0.3s;
-}
-
-.redes a:hover {
-    background-color: var(--morado);
-    border-color: var(--morado);
-}
-
-
-
-.formulario {
-    background-color: var(--tarjeta);
-    border: 1px solid var(--borde);
-    padding: 25px;
-    border-radius: 12px;
-}
-
-.formulario input,
-.formulario textarea {
-    background-color: #0d0d18;
-    border: 1px solid var(--borde);
-    color: white;
-    margin-bottom: 15px;
-    padding: 12px;
-}
-
-.formulario input:focus,
-.formulario textarea:focus {
-    background-color: #0d0d18;
-    border-color: var(--morado);
-    color: white;
-    box-shadow: none;
-}
-
-.formulario input::placeholder,
-.formulario textarea::placeholder {
-    color: #777783;
-}
-
 
 
 
 footer {
-    border-top: 1px solid var(--borde);
+    border-top: 1px solid #29293d;
     padding: 35px 0 20px;
-    color: var(--texto-gris);
+    color: #a1a1aa;
 }
 
 footer p {
     margin-top: 8px;
 }
 
-footer a {
-    color: var(--texto-gris);
-    margin: 0 8px;
-}
-
-footer a:hover {
-    color: var(--morado-claro);
-}
-
 footer hr {
-    border-color: var(--borde);
+    border-color: #29293d;
     margin-top: 25px;
 }
 
-.copyright {
-    text-align: center;
-    font-size: 13px;
+#contactos h3 span{
+    color: #a78bfa
+
 }
-
-
-
-
